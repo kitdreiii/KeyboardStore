@@ -1,0 +1,63 @@
+html, body{
+    font-size: 90%;
+    font-family: Snell Roundhand, cursive;
+    letter-spacing: 0.15em;
+}
+body{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#page{
+    max-width: 940px;
+    min-width: 720px;
+    margin: 10px auto 10px auto;
+    padding: 50px;
+    border: 15px double black;
+    background-color: white;
+    margin-top: 6%;
+}
+
+#logo{
+    width: 220px;
+    margin: 0px auto 0px auto;
+}
+
+ul{
+    width: 570px;
+    padding: 15px;
+    margin: 0px auto 0px auto;
+    border-top: 2px solid #000;
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+
+li{
+    display: inline;
+    margin: 0px 3px;
+}
+
+h1,p{
+    border-top: 2px solid #000;
+    border-bottom: 1px solid #000;
+    text-align: center;
+    width: 600px;
+    margin: 20px auto 20px auto;
+    font-weight: bold;
+}
+p1{
+    width: 1100px;
+    margin: 0px auto 0px auto;
+}
+a{
+    color: #000000;
+    text-transform: uppercase;
+    text-emphasis: none;
+    padding: 6px 18px 5px 18px;
+}
+
+a:hover, a.on{
+    color: #cc3333;
+    background-color: #D0BABA;
+}
